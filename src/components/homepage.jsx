@@ -1,6 +1,6 @@
 import { Button } from "antd";
 import ContainerWrapper from "./container-wrapper";
-import heroImg from "../assets/hero-img.jpg";
+import heroImg from "../assets/ceestar.jpg";
 
 const Homepage = ({ goToChat }) => {
   return (
@@ -11,8 +11,8 @@ const Homepage = ({ goToChat }) => {
       </div>
       <ContainerWrapper>
         <section className="relative bg-white/70 shadow-2xl backdrop-blur-[3px] rounded-xl py-8 px-6 lg:px-14 w-full mx-auto lg:w-[80%]">
-          <h1 className="[font-family:monospace] text-5xl text-center text-blue-950 font-semibold">
-            Lingua<span className="text-orange-800 italic">AI</span>
+          <h1 className="[font-family:monospace] text-3xl text-center text-blue-700 font-semibold">
+          AI TEXT DETECTOR<span ></span>
           </h1>
           <h2 className="text-center mt-6 text-blue-950 font-medium text-lg">
             This is a language{" "}

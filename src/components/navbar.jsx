@@ -12,17 +12,12 @@ const Navbar = ({ goHome }) => {
         <Flex align="center" justify="space-between">
           <h1
             className="[font-family:monospace] text-xl cursor-pointer"
-            onClick={() => goHome()}
+            onClick={goHome}
           >
             Lingua<span className="text-orange-400 italic">AI</span>
           </h1>
-          <Button
-            onClick={() => {
-              clearChat();
-            }}
-            disabled={isSummarizing}
-          >
-            <span className={`${isSummarizing && "text-white"}`}>
+          <Button onClick={clearChat} disabled={isSummarizing}>
+            <span className={isSummarizing ? "text-white" : ""}>
               Clear Chat
             </span>
           </Button>
